@@ -1,0 +1,8 @@
+{
+  port: 3005,
+  storage: "mongo",
+  mongo: {
+    url: "mongodb+srv://oterem:oterem@cluster0.nolnl.mongodb.net/users?retryWrites=true&w=majority",
+    dbName: "users"
+  }
+}
